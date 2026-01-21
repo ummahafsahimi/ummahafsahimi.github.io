@@ -3,9 +3,10 @@
 #### Resume:   [Download here](20260119-DevOps-Resume-Himi.pdf)  <br><br>
 
 
-Hi, I'm a DevOps Engineer who loves turning manual processes into automated solutions. I work with AWS, Kubernetes, Terraform, and Jenkins to build reliable infrastructure that scales.  
+Hi, I'm a DevOps Engineer who specializes in transforming manual processes into automated, scalable solutions. I have 5 years of industrial experience in CI/CD, Git, Linux, Nexus, and Python, and I build reliable cloud‑native infrastructure using AWS, Kubernetes, Terraform, and Jenkins.  
+I also bring a strong foundation in core DevOps principles—version control, automation, observability, infrastructure design, and system reliability—and that truly matter in real‑world engineering.  <br>  
 
-You are welcome to browse my projects below to see how I approach real-world DevOps challenges.
+You’re welcome to explore my work below to see how I tackle real‑world DevOps challenges through automation, efficiency, and devOps best practices
 
 
 ## Kubernetes CI/CD Capstone Project: AWS EKS & ECR Integration
