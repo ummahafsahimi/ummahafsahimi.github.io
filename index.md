@@ -1,14 +1,12 @@
 # Umma Hafsa Himi
 ### DevOps Practitioner | Operational Engineer | Technical Project Manager
-
+## Resume
+[Download Resume](20260119-DevOps-Resume-Himi.pdf)
 ## Contact
 - **Email:** ummahafsahimi@gmail.com
 - **Phone:** +1 236-777-4457 
 - **LinkedIn:** linkedin.com/in/umma-hafsa-himi/  
 - **GitLab Projects:** https://gitlab.com/my-capstone-projects-devops
-- 
-## Resume
-[Download Resume](20260119-DevOps-Resume-Himi.pdf)
 
 Hi, I'm a DevOps Engineer who loves turning manual processes into automated solutions. I work with AWS, Kubernetes, Terraform, and Jenkins to build reliable infrastructure that scales.  
 Browse my projects to see how I approach real-world DevOps challenges.
