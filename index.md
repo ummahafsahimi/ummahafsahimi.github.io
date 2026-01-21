@@ -8,8 +8,11 @@
 - **LinkedIn:** linkedin.com/in/umma-hafsa-himi/  
 - **GitLab Projects:** https://gitlab.com/my-capstone-projects-devops
 
+
+
 Hi, I'm a DevOps Engineer who loves turning manual processes into automated solutions. I work with AWS, Kubernetes, Terraform, and Jenkins to build reliable infrastructure that scales.  
 Browse my projects to see how I approach real-world DevOps challenges.
+
 
 ## Kubernetes CI/CD Capstone Project: AWS EKS & ECR Integration
 
@@ -26,6 +29,26 @@ Automated the complete deployment cycle: increment application version → build
 **Key Learnings:** Created and configured AWS Elastic Container Registry with secure Jenkins authentication using AWS credentials, automated Kubernetes deployments to EKS clusters directly from CI/CD pipelines, applied GitOps principles by maintaining version control throughout the deployment process, and understood how container registries integrate with orchestration platforms for seamless deployments.
 
 **The Result:** A complete DevOps workflow where code changes trigger automated builds, containerization, registry management, and orchestrated deployments—all with zero manual intervention. This demonstrates production-ready CI/CD practices that reduce deployment time from hours to minutes while improving reliability.
+
+
+## AWS EKS Production Deployment: Stateful & Stateless Applications
+
+Automated deployment of a complete application stack to AWS EKS—combining stateless Java applications with stateful databases in a production-grade Kubernetes environment. Implemented cost optimization through autoscaling and strategic resource allocation across EC2 and Fargate.
+
+[View Project Repository →](https://gitlab.com/my-capstone-projects-devops/aws-a-java-maven-app-deploy-to-eks-cluster.git)
+
+**Architecture:**
+
+Provisioned an AWS EKS cluster using kubectl with 3 EC2 worker nodes and 1 Fargate profile for workload separation. Deployed stateful applications (MySQL and phpMyAdmin) to EC2 nodes using Helm charts with Persistent Volume Claims for data persistence. Deployed the stateless Java Maven application on Fargate with 3 replicas for high availability and cost efficiency.
+
+Integrated AWS ECR as the container registry and built a Jenkins CI/CD pipeline to automate the entire deployment workflow. Configured Kubernetes Horizontal Pod Autoscaler (min=1, regular=2, max=3) to dynamically scale based on load while optimizing costs.
+
+**Technologies:** AWS EKS & ECR • Kubernetes • Docker • Helm • Jenkins • Java/Maven • MySQL • Fargate • Linux • Git
+
+**Key Learnings:** Understood the differences between stateful and stateless application deployment strategies in Kubernetes, configured Persistent Volume Claims for database data persistence, leveraged AWS Fargate for serverless container execution, implemented Helm charts for repeatable deployments, configured Horizontal Pod Autoscaler for cost-effective scaling, and automated multi-component deployments through CI/CD pipelines.
+
+**The Result:** A production-ready Kubernetes deployment that balances performance, reliability, and cost—automatically scaling resources based on demand while maintaining data persistence for stateful workloads. This demonstrates real-world cloud-native architecture patterns.
+
 
 
 ## Python Automation: Website Monitoring and Self-Healing Recovery
