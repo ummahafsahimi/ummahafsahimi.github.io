@@ -50,6 +50,25 @@ Integrated AWS ECR as the container registry and built a Jenkins CI/CD pipeline 
 **The Result:** A production-ready Kubernetes deployment that balances performance, reliability, and cost—automatically scaling resources based on demand while maintaining data persistence for stateful workloads. This demonstrates real-world cloud-native architecture patterns.
 
 
+## Kubernetes Microservices Deployment with Helm
+
+Deployed a production-grade microservices application (Google's Online Boutique demo) to a Linode LKE cluster, implementing DevOps best practices for security, scalability, and maintainability. Focused on understanding microservice architecture patterns and inter-service communication flows.
+
+[View Project Repository →](https://gitlab.com/my-capstone-projects-devops/kubernetes-demo-helmchart-and-microservices.git)
+
+**Architecture:**
+
+Deployed a complete microservices application consisting of multiple interconnected services to Linode Kubernetes Engine (LKE). Created shared Helm charts to manage consistent deployments across all microservices, ensuring version control and repeatability. Implemented security best practices including network policies, RBAC, and secrets management for production readiness.
+
+The project required deep understanding of how microservices communicate with each other—service discovery, load balancing, and data flow between frontend, backend, cart, checkout, payment, and Redis cache services.
+
+**Technologies:** Linode LKE • Kubernetes • Helm • Redis • Linux • Microservices Architecture
+
+**Key Learnings:** Created and configured shared Helm charts for consistent microservice deployments across multiple services, applied Kubernetes security best practices including network policies and RBAC for production environments, provisioned and managed Linode Kubernetes Engine clusters, and understood microservice communication patterns and service mesh concepts for distributed applications.
+
+**The Result:** A production-ready microservices deployment demonstrating cloud-native architecture patterns, secure inter-service communication, and infrastructure-as-code practices using Helm. This project showcases how modern distributed applications are built and deployed at scale.
+
+
 
 ## Python Automation: Website Monitoring and Self-Healing Recovery
 
