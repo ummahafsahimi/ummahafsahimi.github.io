@@ -10,38 +10,25 @@
 ## Resume
 [Download Resume](20260119-DevOps-Resume-Himi.pdf)
 
-Hi, I'm a DevOps Engineer who loves turning manual processes into automated solutions. I work with AWS, Kubernetes, Terraform, and Jenkins to build reliable infrastructure that scales. Browse my projects to see how I approach real-world DevOps challenges.
+Hi, I'm a DevOps Engineer who loves turning manual processes into automated solutions. I work with AWS, Kubernetes, Terraform, and Jenkins to build reliable infrastructure that scales.  
+Browse my projects to see how I approach real-world DevOps challenges.
 
-### Kubernetes CI/CD Capstone Project: AWS EKS & ECR Integration
+## Kubernetes CI/CD Capstone Project: AWS EKS & ECR Integration
 
-**Project Overview:**  
-Built a production-grade CI/CD pipeline using Jenkins that automates the entire deployment workflow from code commit to Kubernetes cluster deployment.
+Built a production-grade CI/CD pipeline using Jenkins that automates the entire deployment workflow—from code commit to Kubernetes cluster deployment. The pipeline automatically increments versions, builds Java Maven artifacts, creates Docker images, pushes to AWS ECR, deploys to EKS clusters, and commits version updates back to Git for complete version control.
+
+[View Project Repository →](#)
 
 **Pipeline Workflow:**
-1. Automatically increments application version
-2. Builds Java Maven application artifact
-3. Creates Docker image from the application
-4. Pushes Docker image to AWS Elastic Container Registry (ECR)
-5. Deploys the latest application to AWS EKS cluster
-6. Commits version updates back to Git for version control
 
-**Technologies Used:**
-- Kubernetes (EKS)
-- Jenkins (Pipeline-as-Code)
-- AWS EKS & ECR
-- Java & Maven
-- Docker
-- Git
-- Linux
+Automated the complete deployment cycle: increment application version → build Java Maven artifact → create Docker image → push to AWS Elastic Container Registry → deploy to EKS cluster → commit version update to Git. Every step is triggered automatically with proper error handling and rollback capabilities.
 
-**Key Learning Outcomes:**
-- Created and configured AWS Elastic Container Registry (ECR) and understood its integration with EKS
-- Implemented secure authentication between Jenkins and ECR using AWS credentials
-- Automated Kubernetes deployments to EKS clusters directly from Jenkins pipelines
-- Applied GitOps principles by committing version changes back to source control
+**Technologies:** Kubernetes (EKS) • Jenkins (Pipeline-as-Code) • AWS ECR • Java/Maven • Docker • Git • Linux
 
-**Architecture Highlights:**
-This project demonstrates a complete DevOps workflow where code changes trigger automated builds, containerization, registry management, and orchestrated deployments—all with proper version control and zero manual intervention.
+**Key Learnings:** Created and configured AWS Elastic Container Registry with secure Jenkins authentication using AWS credentials, automated Kubernetes deployments to EKS clusters directly from CI/CD pipelines, applied GitOps principles by maintaining version control throughout the deployment process, and understood how container registries integrate with orchestration platforms for seamless deployments.
+
+**The Result:** A complete DevOps workflow where code changes trigger automated builds, containerization, registry management, and orchestrated deployments—all with zero manual intervention. This demonstrates production-ready CI/CD practices that reduce deployment time from hours to minutes while improving reliability.
+
 
 ## Python Automation: Website Monitoring and Self-Healing Recovery
 
