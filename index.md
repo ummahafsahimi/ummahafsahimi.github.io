@@ -1,24 +1,18 @@
 # Umma Hafsa Himi
 ### DevOps Practitioner | Operational Engineer | Technical Project Manager
-## Resume
-[Download Resume](20260119-DevOps-Resume-Himi.pdf)
-## Contact
-- **Email:** ummahafsahimi@gmail.com
-- **Phone:** +1 236-777-4457 
-- **LinkedIn:** linkedin.com/in/umma-hafsa-himi/  
-- **GitLab Projects:** https://gitlab.com/my-capstone-projects-devops
-
+#### Resume:   [Download here](20260119-DevOps-Resume-Himi.pdf)  <br><br>
 
 
 Hi, I'm a DevOps Engineer who loves turning manual processes into automated solutions. I work with AWS, Kubernetes, Terraform, and Jenkins to build reliable infrastructure that scales.  
-Browse my projects to see how I approach real-world DevOps challenges.
+
+You are welcome to browse my projects below to see how I approach real-world DevOps challenges.
 
 
 ## Kubernetes CI/CD Capstone Project: AWS EKS & ECR Integration
 
 Built a production-grade CI/CD pipeline using Jenkins that automates the entire deployment workflow—from code commit to Kubernetes cluster deployment. The pipeline automatically increments versions, builds Java Maven artifacts, creates Docker images, pushes to AWS ECR, deploys to EKS clusters, and commits version updates back to Git for complete version control.
 
-[View Project Repository →](#)
+[View Project Repository →](https://gitlab.com/my-capstone-projects-devops/kubernetes-demo-eks-ecr-integration-in-ci-cd-jenkins.git)
 
 **Pipeline Workflow:**
 
@@ -41,7 +35,7 @@ Automated deployment of a complete application stack to AWS EKS—combining stat
 
 Provisioned an AWS EKS cluster using kubectl with 3 EC2 worker nodes and 1 Fargate profile for workload separation. Deployed stateful applications (MySQL and phpMyAdmin) to EC2 nodes using Helm charts with Persistent Volume Claims for data persistence. Deployed the stateless Java Maven application on Fargate with 3 replicas for high availability and cost efficiency.
 
-Integrated AWS ECR as the container registry and built a Jenkins CI/CD pipeline to automate the entire deployment workflow. Configured Kubernetes Horizontal Pod Autoscaler (min=1, regular=2, max=3) to dynamically scale based on load while optimizing costs.
+Integrated AWS ECR as the container registry and built a Jenkins CI/CD pipeline to automate the entire deployment workflow. Configured Kubernetes Horizontal Pod Autoscaler (min=1, regular=2, max=3) to scale based on load while optimizing costs dynamically.
 
 **Technologies:** AWS EKS & ECR • Kubernetes • Docker • Helm • Jenkins • Java/Maven • MySQL • Fargate • Linux • Git
 
@@ -86,19 +80,27 @@ Built an intelligent monitoring system using Python that continuously checks app
 
 This project demonstrates SRE principles of reducing toil and improving reliability—transforming reactive incident response into proactive, automated problem resolution.
 
-[View Project Repository →](#)
+[View Project Repository →](https://gitlab.com/my-capstone-projects-devops/python-demo-website-monitoring-and-recovery-with-python.git)
 
-## Ansible Capstone Project: Orchestrating Cloud Infrastructure with Code
 
-Solved the real-world challenge of provisioning cloud infrastructure and deploying applications in a fully automated, repeatable way—everything defined as code, version-controlled, and executable with a single command.
+
+## Ansible Capstone Project: Deploying Applications to Kubernetes (EKS)
+
+Automated the complete workflow of provisioning AWS infrastructure and deploying applications to Kubernetes using a combination of Terraform and Ansible. Demonstrated how infrastructure-as-code and configuration management tools work together to create fully automated, repeatable deployments.
 
 [View Project Repository →](https://gitlab.com/my-capstone-projects-devops/ansible-demo-deploy-application-to-kubernetes-eks.git)
 
-**The Architecture:**
+**Architecture:**
 
-Built the foundation using Terraform modules to provision a complete AWS EKS cluster with properly segmented VPC, subnets across multiple availability zones, and all necessary IAM roles and security groups. This infrastructure-as-code approach enabled consistent, repeatable deployments.
+Provisioned AWS EKS cluster and VPC infrastructure using Terraform (check the `eks` branch for IaC files). Then configured the EKS cluster and deployed an Nginx application using Ansible playbooks. Automated kubeconfig generation and environment variable configuration to enable seamless communication between Ansible and the remote Kubernetes cluster.
 
-Then integrated Ansible for configuration management and application deployment. Mastered Ansible's `kubernetes.core.k8s` module and its prerequisites (python3, pyYAML, Kubernetes Python client, jsonpatch). Automated kubeconfig generation and environment variable configuration to enable seam
+Built Ansible playbooks using the `kubernetes.core.k8s` module to create dedicated namespaces for proper isolation and deploy applications with Services for network exposure. The idempotent design ensures playbooks can run multiple times safely.
+
+**Technologies:** Ansible • Terraform • AWS EKS • Kubernetes • Docker • Python • Git • Linux
+
+**Key Learnings:** Mastered Ansible's `kubernetes.core.k8s` module and its prerequisites (python3, pyYAML, kubernetes, jsonpatch), automated namespace creation and application deployment in EKS clusters, generated and updated kubeconfig files programmatically for cluster authentication, configured environment variables like `KUBECONFIG` and `K8S_AUTH_KUBECONFIG` for tool integration, and understood how IaC (Terraform) and configuration management (Ansible) complement each other.
+
+**The Result:** A fully automated deployment system where Terraform provisions the infrastructure and Ansible handles configuration and application deployment—all through code with zero manual intervention. This demonstrates production DevOps workflows combining multiple tools effectively.
 
 
 ## Monitoring with Prometheus and Grafana
@@ -120,3 +122,9 @@ Configured proactive alert rules for high resource usage, pod crashes, and servi
 **The Impact:** This monitoring stack provides the visibility needed to move from learning about issues through user complaints to detecting and fixing problems proactively. It drastically reduces mean time to detection (MTTD) and makes troubleshooting faster by showing exactly what's failing and when.
 
 
+### Contact
+- **Email:** ummahafsahimi@gmail.com
+- **Phone:** +1 236-777-4457 
+- **LinkedIn:** linkedin.com/in/umma-hafsa-himi/  
+- **GitLab Projects:** https://gitlab.com/my-capstone-projects-devops
+  
