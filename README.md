@@ -1,0 +1,52 @@
+# 🌈 Hi, I'm Umma — DevOps & Geospatial Engineer  
+
+I design elegant, scalable infrastructure and build automation that removes friction from engineering teams.  
+My background blends **DevOps, Cloud, CI/CD, Linux, Python automation, and advanced SAR/InSAR analytics** — a mix that lets me solve problems from both a systems and data perspective.
+
+I love creating clean pipelines, intuitive workflows, and infrastructure that feels effortless.
+
+---
+
+## 🚀 What I Do
+- Cloud-native DevOps (AWS, Terraform, Kubernetes, Docker)
+- CI/CD pipelines that scale with teams
+- Python automation for infrastructure + geospatial workflows
+- Monitoring & observability (Prometheus, Grafana)
+- SAR/InSAR & multispectral image processing
+- Technical project leadership and mentoring
+
+---
+
+## 🛠️ Tech Stack  
+**Cloud & Infra:** AWS · Terraform · Ansible · Kubernetes · Docker  
+**CI/CD:** GitHub Actions · Jenkins · ArgoCD  
+**Languages:** Python · Bash · SQL  
+**Monitoring:** Prometheus · Grafana  
+**GIS:** GDAL · Rasterio · ESRI · SNAP · QGIS  
+
+---
+
+## 🌟 Featured Projects
+- **AWS + Terraform Infrastructure Blueprint**  
+  Reusable IaC modules for VPC, EC2, IAM, S3, and EKS.
+
+- **Kubernetes Deployment Starter Kit**  
+  A production-ready template with Helm, Ingress, autoscaling, and monitoring.
+
+- **Python Automation Toolkit**  
+  Scripts for DevOps workflows, cloud automation, and geospatial processing.
+
+- **InSAR Processing Pipeline**  
+  End-to-end workflow for deformation monitoring using open-source tools.
+
+---
+
+## 📊 GitHub Stats  
+![Stats](https://github-readme-stats.vercel.app/api?username=UmmaHafsaHimi&show_icons=true&theme=radical)  
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=UmmaHafsaHimi&layout=compact&theme=radical)
+
+---
+
+## 🌐 Connect With Me  
+**Portfolio:** https://ummahafsahimi.github.io  
+**LinkedIn:** https://linkedin.com/in/umma-hafsa-himi  
