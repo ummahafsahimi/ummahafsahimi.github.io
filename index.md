@@ -1,6 +1,6 @@
 # Umma Hafsa Himi
 ### DevOps Practitioner | Operational Engineer | Technical Project Manager
-#### Resume:   [Download here](20260119-DevOps-Resume-Himi.pdf)  <br><br>
+#### Resume:   [Download here](20260129-DevOps-Resume-Himi.pdf)  <br><br>
 
 
 Hi, I'm a DevOps Engineer with 5 years of industrial experience in CI/CD, Git, Linux, Nexus, and Python, and I build reliable cloud‑native infrastructure using AWS, Kubernetes, Terraform, and Jenkins.  
