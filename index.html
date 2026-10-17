@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Umma Hafsa Himi — Project Manager with Technical Depth</title>
+<meta name="description" content="PMP-certified project manager (5 years) who has owned end-to-end delivery of technical programs — and can go deep with engineering teams on the how, not just the what.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Umma Hafsa Himi",
+    "jobTitle": "Project Manager",
+    "address": { "@type": "PostalAddress", "addressLocality": "Burnaby", "addressRegion": "BC", "addressCountry": "CA" },
+    "url": "https://ummahafsahimi.github.io",
+    "sameAs": [
+      "https://github.com/ummahafsahimi",
+      "https://linkedin.com/in/umma-hafsa-himi"
+    ]
+  }
+}
+</script>
+<style>
+  :root {
+    --bg: #1e1e24;
+    --ink: #ececef;
+    --muted: #a7a7b3;
+    --accent: #00e5d6;
+    --line: rgba(255, 255, 255, 0.12);
+    --card: #26262e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.7; color: var(--ink); background: var(--bg);
+    max-width: 700px; margin: 0 auto; padding: 0 24px 64px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Nav */
+  nav { display: flex; justify-content: space-between; align-items: center; padding: 28px 0; }
+  .wordmark { color: var(--accent); font-weight: 800; font-size: 1.1rem; letter-spacing: -0.01em; }
+  .navlinks a { color: var(--muted); font-size: 0.92rem; margin-left: 22px; font-weight: 500; }
+  .navlinks a:hover { color: var(--ink); text-decoration: none; }
+
+  /* Hero */
+  .hero { display: flex; gap: 30px; align-items: center; padding: 24px 0 8px; }
+  .avatar-ring { background: var(--accent); border-radius: 50%; padding: 6px; flex-shrink: 0;
+                 box-shadow: 0 0 32px rgba(0, 229, 214, 0.25); }
+  .avatar { display: block; width: 128px; height: 128px; border-radius: 50%; object-fit: cover; }
+  h1 { font-size: 2.5rem; margin: 0 0 6px; letter-spacing: -0.02em; color: #ffffff; font-weight: 800; }
+  .tagline { font-size: 1.2rem; color: var(--accent); font-weight: 600; margin: 0 0 10px; }
+  .valueprop { color: var(--ink); font-weight: 500; margin: 0 0 10px; }
+  .bio { color: var(--muted); margin: 0 0 18px; max-width: 60ch; }
+  .links a { margin-right: 18px; font-weight: 600; font-size: 0.95rem; }
+
+  hr { border: 0; border-top: 1px solid var(--line); margin: 52px 0; }
+
+  section { margin: 0; }
+  h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.22em;
+       color: var(--accent); font-weight: 700; margin: 0 0 24px; }
+
+  .job { margin-bottom: 34px; }
+  .job:last-child { margin-bottom: 0; }
+  .job h3 { margin: 0 0 2px; font-size: 1.35rem; color: #ffffff; font-weight: 700; }
+  .job h3 .dates { color: var(--muted); font-weight: 500; font-size: 1.05rem; }
+  .roleline { color: var(--muted); font-size: 0.95rem; margin: 0 0 10px; }
+  .job p.summary { color: var(--muted); margin: 0 0 10px; }
+  ul.tight { margin: 10px 0 0; padding-left: 22px; color: var(--ink); }
+  ul.tight li { margin-bottom: 8px; }
+  ul.tight li::marker { color: var(--muted); }
+
+  .proj { margin-bottom: 30px; }
+  .proj:last-child { margin-bottom: 0; }
+  .proj h3 { margin: 0 0 6px; font-size: 1.15rem; color: #ffffff; }
+  .proj h3 .status { color: var(--muted); font-weight: 500; font-size: 0.9rem; }
+  .proj p { margin: 6px 0; color: var(--muted); }
+  .proj p strong { color: var(--ink); font-weight: 600; }
+  .proj .tech { font-size: 0.88rem; color: var(--muted); margin-top: 8px; }
+
+  .skillgroup { margin-bottom: 16px; }
+  .skillgroup:last-child { margin-bottom: 0; }
+  .skillgroup .cat { color: var(--muted); font-size: 0.85rem; text-transform: uppercase;
+                     letter-spacing: 0.1em; margin-bottom: 8px; font-weight: 600; }
+  .tags span { display: inline-block; background: var(--card); border: 1px solid var(--line);
+               border-radius: 999px; padding: 3px 13px; font-size: 0.85rem;
+               margin: 0 8px 8px 0; color: var(--ink); }
+
+  .edu { margin-bottom: 18px; }
+  .edu:last-child { margin-bottom: 0; }
+  .edu h3 { margin: 0 0 2px; font-size: 1.1rem; color: #ffffff; }
+  .edu h3 .dates { color: var(--muted); font-weight: 500; font-size: 0.95rem; }
+  .edu p { margin: 4px 0 0; color: var(--muted); font-size: 0.95rem; }
+
+  .pub { margin-bottom: 20px; }
+  .pub:last-child { margin-bottom: 0; }
+  .pub .ptitle { color: #ffffff; font-weight: 600; margin: 0 0 3px; }
+  .pub .pmeta { color: var(--muted); font-size: 0.92rem; margin: 0; }
+
+  .video-wrap { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;
+                border-radius: 12px; border: 1px solid var(--line); background: #000; }
+  .video-wrap iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+  .hint { font-size: 0.85rem; color: var(--muted); }
+
+  .contactline { color: var(--muted); margin: 0 0 14px; }
+  .contactline a { font-weight: 600; }
+  footer { margin-top: 52px; }
+  .copyright { color: var(--muted); font-size: 0.82rem; opacity: 0.75; margin: 26px 0 0; }
+
+  @media (max-width: 560px) {
+    h1 { font-size: 2rem; }
+    .hero { flex-direction: column; align-items: flex-start; gap: 20px; }
+    .navlinks a { margin-left: 14px; }
+    body { padding: 0 18px 52px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="wordmark">Umma H.</span>
+  <div class="navlinks">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header id="about">
+  <div class="hero">
+    <!-- Avatar: illustrated brand avatar. To use a real headshot photo instead,
+         save it as avatar.png (replacing this file) — a professional photo is
+         the strongest choice for the portfolio hero. -->
+    <div class="avatar-ring">
+      <img class="avatar" src="avatar.png" alt="Illustrated avatar of Umma Hafsa Himi">
+    </div>
+    <div>
+      <h1>Umma Hafsa Himi</h1>
+      <p class="tagline">Project Manager with technical depth.</p>
+    </div>
+  </div>
+  <p class="valueprop">Turning complex technical programs into delivered outcomes.</p>
+  <p class="bio">PMP®-certified project manager (5 years) who has owned end-to-end delivery of technical programs — and can go deep with engineering teams on the <em>how</em>, not just the <em>what</em>. Now building product muscle through BCIT and UBC product management programs.</p>
+  <div class="links">
+    <a href="https://linkedin.com/in/umma-hafsa-himi">LinkedIn</a>
+    <a href="https://github.com/ummahafsahimi">GitHub</a>
+    <a href="mailto:ummahafsahimi@gmail.com">Email</a>
+  </div>
+</header>
+
+<hr>
+
+<section id="intro">
+  <h2>Intro video</h2>
+  <!--
+    HOW TO ADD YOUR VIDEO (pick one):
+    A) YouTube (recommended): upload as Unlisted, then replace VIDEO_ID below with the
+       11-character ID from the video URL (youtube.com/watch?v=VIDEO_ID).
+    B) Self-hosted: put a compressed intro.mp4 (under ~10MB) next to this file and swap
+       the iframe for:
+       <video controls preload="metadata" style="width:100%;border-radius:12px;">
+         <source src="intro.mp4" type="video/mp4">
+       </video>
+    Keep it 60–90 seconds: who you are → one delivery win → your technical depth →
+    what you're looking for.
+  -->
+  <div class="video-wrap">
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Intro video — Umma Hafsa Himi"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+  </div>
+  <p class="hint">Replace <code>VIDEO_ID</code> in the code with your unlisted YouTube video ID when ready.</p>
+</section>
+
+<hr>
+
+<section id="experience">
+  <h2>Experience</h2>
+
+  <div class="job">
+    <h3>3vGeomatics <span class="dates">[2018 – 2023]</span></h3>
+    <p class="roleline">Project Manager + Data Analyst II — Vancouver, BC</p>
+    <ul class="tight">
+      <li>Owned end-to-end delivery for 4 concurrent mine-site monitoring programs (dozens of sites) — <strong>100% on-time delivery</strong> against SLAs.</li>
+      <li>Delivered hundreds of weekly and quarterly monitoring reports and data products aligned to client risk-management needs.</li>
+      <li>Coordinated the company's largest multi-site program across North America, standardizing delivery and reporting.</li>
+      <li>Single point of contact post-delivery — <strong>every managed contract renewed (~$1M+ total value)</strong>.</li>
+      <li>Led OKR sessions turning client feedback and delivery metrics into prioritized product and process improvements.</li>
+      <li>Drove workflow automation (Python, YAML, Jenkins) and multi-gate QA/QC across Operations, R&amp;D, and DevOps.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <h3>C-CORE <span class="dates">[2016 – 2018]</span></h3>
+    <p class="roleline">Graduate Research Assistant — St. John's, NL</p>
+    <p class="summary">Managed research programs from data collection through publication, coordinating academic and industry stakeholders. Authored 1 and co-authored 2 peer-reviewed IEEE publications.</p>
+  </div>
+
+  <div class="job">
+    <h3>Rangpur Engineering College <span class="dates">[2016]</span></h3>
+    <p class="roleline">Lecturer, Electrical Engineering — Bangladesh</p>
+    <p class="summary">Taught two undergraduate engineering courses including a hands-on lab.</p>
+  </div>
+
+  <div class="job">
+    <h3>Professional development <span class="dates">[2025 – 2026]</span></h3>
+    <ul class="tight">
+      <li><strong>PMP®</strong> — Project Management Institute (2026): Waterfall, Agile, Hybrid delivery.</li>
+      <li><strong>DevOps Practitioner bootcamp</strong> — SDLC, CI/CD, full-cycle app deployments across AWS, Azure, GCP.</li>
+      <li><strong>Azure Administrator</strong> certified.</li>
+      <li><strong>BCIT</strong> Healthcare Product Management &amp; Ownership (ends Nov 2026).</li>
+      <li><strong>UBC</strong> AI in Product Management bootcamp (ends Dec 2026).</li>
+    </ul>
+  </div>
+</section>
+
+<hr>
+
+<section id="projects">
+  <h2>Featured projects</h2>
+
+  <div class="proj">
+    <h3>🤖 Python Job Application AI Agent <span class="status">— in progress</span></h3>
+    <p><strong>Problem:</strong> tracking applications across a dozen job sites is manual, and ghost jobs waste everyone's time.</p>
+    <p><strong>My role:</strong> scoped the problem, defined the MVP (track applications → alert on matches → detect ghost jobs), and started building the collector in Python.</p>
+    <p><a href="https://github.com/ummahafsahimi/Python-Job-application-AI-agent">View on GitHub →</a></p>
+    <p class="tech">Python · Product thinking · Automation</p>
+  </div>
+
+  <div class="proj">
+    <h3>☁️ Cloud-Native SaaS Platform — full DevOps automation</h3>
+    <p><strong>Scope:</strong> planned and built a production-style platform end to end — containerized services, infrastructure as code, CI/CD pipelines, and observability. The full lifecycle, delivered solo.</p>
+    <p><a href="https://github.com/ummahafsahimi/A-Cloude-Native-SaaS-Platform-with-Full-DevOps-Automation">View on GitHub →</a></p>
+    <p class="tech">Kubernetes · Terraform · CI/CD · AWS</p>
+  </div>
+
+  <div class="proj">
+    <h3>🏗️ IaC with Terraform — EKS clusters + MySQL + CI/CD</h3>
+    <p><strong>Scope:</strong> automated provisioning of multi-environment EKS clusters — Helm-deployed MySQL, S3 remote state, dedicated Jenkins pipeline. Reusable modules for VPC, EC2, IAM, S3, and EKS.</p>
+    <p><a href="https://github.com/ummahafsahimi/IaC-with-Terraform-EKScluster-MySQL-CICD">View on GitHub →</a></p>
+    <p class="tech">Terraform · AWS EKS · Helm · Jenkins</p>
+  </div>
+
+  <div class="proj">
+    <h3>📈 Monitoring with Prometheus &amp; Grafana</h3>
+    <p><strong>Scope:</strong> Kubernetes monitoring stack — metrics, dashboards, and alert routing wired end to end. Currently extending: Alertmanager → Slack for app issues, email for cluster issues.</p>
+    <p><a href="https://github.com/ummahafsahimi/Monitoring-with-Prometheus-Grafana">View on GitHub →</a></p>
+    <p class="tech">Prometheus · Grafana · Kubernetes</p>
+  </div>
+</section>
+
+<hr>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skillgroup">
+    <p class="cat">Delivery</p>
+    <div class="tags"><span>Delivery leadership</span><span>Agile / Waterfall / Hybrid</span><span>RAID management</span><span>Stakeholder management</span><span>SLA-driven delivery</span><span>OKRs</span><span>WBS &amp; estimation</span></div>
+  </div>
+  <div class="skillgroup">
+    <p class="cat">Technical</p>
+    <div class="tags"><span>Python</span><span>Linux</span><span>Kubernetes</span><span>Terraform</span><span>Ansible</span><span>Docker</span><span>Jenkins</span><span>GitHub Actions</span><span>AWS</span><span>Azure</span><span>GCP</span><span>Git</span></div>
+  </div>
+  <div class="skillgroup">
+    <p class="cat">Tools &amp; data</p>
+    <div class="tags"><span>Jira</span><span>Wrike</span><span>Slack</span><span>SAR/InSAR analytics</span><span>QGIS</span><span>ArcGIS</span></div>
+  </div>
+</section>
+
+<hr>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="edu">
+    <h3>Memorial University of Newfoundland <span class="dates">[2019]</span></h3>
+    <p>M.Eng, Electrical Engineering — St. John's, NL</p>
+  </div>
+  <div class="edu">
+    <h3>RUET <span class="dates">[2016]</span></h3>
+    <p>B.Sc, Electrical &amp; Electronics Engineering — Bangladesh</p>
+  </div>
+</section>
+
+<hr>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <div class="pub">
+    <p class="ptitle">Iceberg Backscatter in Sea Ice vs Open Water — RADARSAT-2</p>
+    <p class="pmeta">Himi, U. H. et al. (2021). IEEE Transactions on Geoscience &amp; Remote Sensing.</p>
+  </div>
+  <div class="pub">
+    <p class="ptitle">C-band Simulations of Melting Icebergs Using GRECOSAR</p>
+    <p class="pmeta">Ferdous, M. S., Himi, U. H. et al. (2020). IEEE Journal of Selected Topics in Applied Earth Observation.</p>
+  </div>
+  <div class="pub">
+    <p class="ptitle">Iceberg EM Backscatter Modeling — C-Band SAR Classifier</p>
+    <p class="pmeta">Ferdous, M. S., Himi, U. H. et al. (2019). IEEE Geoscience &amp; Remote Sensing Letters.</p>
+  </div>
+</section>
+
+<hr>
+
+<footer id="contact">
+  <h2>Get in touch</h2>
+  <p class="contactline">The fastest way to reach me is email: <a href="mailto:ummahafsahimi@gmail.com">ummahafsahimi@gmail.com</a></p>
+  <p class="contactline"><a href="https://linkedin.com/in/umma-hafsa-himi">LinkedIn</a> · <a href="https://github.com/ummahafsahimi">GitHub</a></p>
+  <p class="contactline">📍 Burnaby, BC · 🇨🇦 Canadian citizen · Open to Product / Delivery / Project roles across Canada (remote Canada-wide, onsite in Greater Vancouver)</p>
+  <p class="copyright">© 2026 Umma Hafsa Himi</p>
+</footer>
+
+</body>
+</html>
